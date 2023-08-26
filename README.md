@@ -1,3 +1,10 @@
+# ATTN: This is a fork of the original pomegranate repository with some changes to the build process
+
+* The base version of this branch is v0.14.9
+* Numpy is pinned to <2.0.0 in `build-system.requires` to avoid deprecated Cython APIs
+* Cython compilation is configured to not generate docstrings/comments to enable consistent hashes with PEX
+    * See https://github.com/pantsbuild/pants/issues/21097#issuecomment-2188024931.
+
 <img src="https://github.com/jmschrei/pomegranate/blob/master/docs/logo/pomegranate-logo.png" width=300>
 
 [![Downloads](https://pepy.tech/badge/pomegranate)](https://pepy.tech/project/pomegranate)![build](https://github.com/jmschrei/pomegranate/workflows/build/badge.svg) [![Documentation Status](https://readthedocs.org/projects/pomegranate/badge/?version=latest)](http://pomegranate.readthedocs.io/en/latest/?badge=latest) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jmschrei/pomegranate/master)

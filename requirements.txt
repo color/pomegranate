@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 numpy >= 1.20.0
+=======
+numpy >= 1.20.0, < 2.0.0
+>>>>>>> 8f6df08 (Patches v0.14.9 to pin numpy and stop generating comments/docstrings in)
 joblib >= 0.9.0b4
 networkx >= 2.4
 scipy >= 0.17.0
 pyyaml
+<<<<<<< HEAD
 cython >= 0.29.14, < 3.0.0
+=======
+cython >= 0.29.14, < 3.0.0
+>>>>>>> 8f6df08 (Patches v0.14.9 to pin numpy and stop generating comments/docstrings in)
